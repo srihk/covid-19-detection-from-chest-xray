@@ -1,4 +1,4 @@
-tensorflow-cpu==2.5.0rc3
+tensorflow-cpu
 streamlit==0.81.1
-numpy==1.19.5
-matplotlib==3.4.2
+numpy
+matplotlib
