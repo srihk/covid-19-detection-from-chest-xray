@@ -220,7 +220,7 @@ if model_type <= 4 and model_type >= 1:
             msg = "COVID-19 **+VE** *(POSITIVE)*: " + str(prediction[0][0] * 100) + "%"
             st.write(msg)
 
-            msg = "COVID-19 **-VE** *(NEGATIVE)* " + str(prediction[0][1] * 100) + "%"
+            msg = "COVID-19 **-VE** *(NEGATIVE)*: " + str(prediction[0][1] * 100) + "%"
             st.write(msg)
 
             st.write("Raw results (0: **COVID**, 1: **Normal**)")
