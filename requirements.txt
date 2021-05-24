@@ -1,4 +1,4 @@
 tensorflow-cpu
-streamlit==0.81.1
+streamlit
 numpy
 matplotlib
