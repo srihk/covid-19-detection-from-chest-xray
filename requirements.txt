@@ -2,5 +2,4 @@ tensorflow-cpu
 streamlit
 numpy
 matplotlib
-shutil
 requests
