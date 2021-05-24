@@ -2,3 +2,6 @@ tensorflow-cpu
 streamlit
 numpy
 matplotlib
+os
+shutil
+requests
