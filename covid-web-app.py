@@ -94,7 +94,7 @@ def save_and_display_gradcam(img_path, heatmap, cam_path="cam.jpg", alpha=0.4):
     st.image(img, use_column_width=True)
 
 # Load the model.
-model = tf.keras.models.load_model('./covid-models/cxr-covid-detection-model-max-pooling-10-epochs')
+model = tf.keras.models.load_model('./covid-models/cxr-covid-detection-model-vgg16-m')
 
 st.write("# COVID-19 Detection from Chest X-Ray *(CXR)* Scans")
 
